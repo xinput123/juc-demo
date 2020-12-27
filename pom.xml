@@ -6,7 +6,11 @@
 
     <groupId>com.xinput</groupId>
     <artifactId>juc-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>thread-demo</module>
+    </modules>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
